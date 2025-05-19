@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_FIREBASE_API_KEY": "AIzAoSyRkP7fuZu868ga6pDwLXagV4A",
+    "NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN": "hermesverse-e0985.firebaseapp.com",
+    "NEXT_PUBLIC_FIREBASE_PROJECT_ID": "hermesverse-e0985",
+    "NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET": "hermesverse-e0985.firebasestorage.app",
+    "NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID": "229071450",
+    "NEXT_PUBLIC_FIREBASE_APP_ID": "1:229071450:web:4f9cb54c28be85ad9dcbf8",
+    "NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID": "G-YFXB6YYZ",
+    "NEXT_PUBLIC_TELEGRAM_BOT_TOKEN": "7958179839:AAGmh6HuFVlIzoSA40cbueuYISt_qAWzKAk",
+    "NEXT_PUBLIC_APP_URL": "https://hermesverse.vercel.app"
+  }
+}
